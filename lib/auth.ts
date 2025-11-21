@@ -8,14 +8,14 @@ const users = [
     email: 'customer@example.com',
     password: 'customer123',
     name: 'Jane Customer',
-    role: 'customer',
+    role: 'customer' as 'customer' | 'employee',
   },
   {
     id: '2',
     email: 'employee@example.com',
     password: 'employee123',
     name: 'John Employee',
-    role: 'employee',
+    role: 'employee' as 'customer' | 'employee',
   },
 ];
 
