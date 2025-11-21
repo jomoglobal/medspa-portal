@@ -80,7 +80,7 @@ export default function BookAppointmentPage() {
             Booking Successful!
           </h2>
           <p className="text-calm-600 mb-6">
-            Your appointment request has been submitted. We'll confirm it shortly.
+            Your appointment request has been submitted. We&apos;ll confirm it shortly.
           </p>
           <Button onClick={() => router.push('/customer/dashboard')}>
             Return to Dashboard

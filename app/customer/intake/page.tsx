@@ -119,7 +119,7 @@ export default function IntakePage() {
               onChange={(e) =>
                 setFormData({ ...formData, medications: e.target.value })
               }
-              placeholder="List all medications and supplements you're currently taking..."
+              placeholder="List all medications and supplements you&apos;re currently taking..."
               rows={3}
               required
             />

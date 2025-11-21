@@ -139,7 +139,7 @@ export default function EmployeeDashboard() {
         {/* Today's Schedule */}
         <div>
           <h2 className="text-2xl font-bold text-calm-900 mb-6">
-            Today's Schedule
+            Today&apos;s Schedule
           </h2>
 
           <div className="space-y-4">
