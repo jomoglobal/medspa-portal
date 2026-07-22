@@ -1,7 +1,7 @@
 import { NextAuthOptions } from 'next-auth';
 import CredentialsProvider from 'next-auth/providers/credentials';
 
-// Mock user database - replace with real database in production
+// DEMO ONLY — hardcoded mock credentials for UI demonstration. Replace with a real database and bcrypt password hashing before any production use.
 const users = [
   {
     id: '1',
